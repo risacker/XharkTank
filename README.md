@@ -44,3 +44,13 @@ These are the mandatory product flows that are expected while building the backe
      ● Amount ready to invest in the idea
 
      ● Ask Percentage of Equity for a company
+    
+## Mandatory API Requirements
+
+The interaction between the frontend and backend shall be based on a REST API with support for the below 4 endpoints:
+
+  1. Endpoint to post a pitch to the backend
+  2. Endpoint to make a counter offer for a pitch to the backend
+  3. Endpoint to fetch the all the pitches in the reverse chronological order ( i.e. last created one first ) from the backend
+  4. Endpoint to specify a particular id (identifying the pitch) to fetch a single Pitch.
+
